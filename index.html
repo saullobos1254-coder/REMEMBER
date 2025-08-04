@@ -636,9 +636,9 @@
                             <i class="fas fa-heart"></i>
                         </div>
                         <h3>Para Carolina</h3>
-                        <p>Cada nota de estas canciones late al ritmo de mi corazón por ti.</p>
-                        <p>Eres la melodía más bella que ha entrado en mi vida.</p>
-                        <p>Cada día contigo es una nueva canción que quiero escuchar para siempre.</p>
+                        <p>Se que no todo fue color de rosas, pero cuando escucho estas canciones, me hacen pensar que lo fue. Y aunque lamentablemente, de mi parte, nunca supe darte lo que merecias, que no cabe duda que es realmente una hermosa niña.</p>
+                        <p>fuiste mi cancion favorita, incluso si ya no suenas en mi vida</p>
+                
                         <div class="countdown" id="countdown">Nos vemos en: 24:00:00</div>
                     </div>
                 </div>
@@ -901,7 +901,7 @@
             // Contador regresivo
             function startCountdown() {
                 const targetTime = new Date();
-                targetTime.setDate(targetTime.getDate() + 1);
+                targetTime.setDate(targetTime.getDate() + 4);
                 targetTime.setHours(0, 0, 0, 0);
 
                 function updateCountdown() {
@@ -917,7 +917,7 @@
                     const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
                     const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-                    countdownElement.textContent = `Nos vemos en: ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                    countdownElement.textContent = : ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
                 }
 
                 updateCountdown();
